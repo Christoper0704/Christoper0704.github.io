@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/PortofolioWeb/static/css/main.d186fc3b.css",
+    "main.js": "/PortofolioWeb/static/js/main.e2c55621.js",
+    "static/media/background.jpg": "/PortofolioWeb/static/media/background.505df75e5fe07879594f.jpg",
+    "static/media/selfie.jpg": "/PortofolioWeb/static/media/selfie.ca4eafb578dd8ff12d9b.jpg",
+    "static/media/emonteer.png": "/PortofolioWeb/static/media/emonteer.0e894c0b28ba7253f5ea.png",
+    "static/media/java.png": "/PortofolioWeb/static/media/java.35397b59170cfd616fee.png",
+    "static/media/c.png": "/PortofolioWeb/static/media/c.c0da8156a8d17281c29e.png",
+    "static/media/motivsong.jpg": "/PortofolioWeb/static/media/motivsong.8c99e81c6526ccf844ae.jpg",
+    "static/media/typescript.png": "/PortofolioWeb/static/media/typescript.659e4b9351cf1baa6930.png",
+    "static/media/html.png": "/PortofolioWeb/static/media/html.12fb7c909610c213d9c7.png",
+    "static/media/css.png": "/PortofolioWeb/static/media/css.4e67641bb68b658d9b2b.png",
+    "static/media/Hydrovest.png": "/PortofolioWeb/static/media/Hydrovest.085f6372cccc9e625bce.png",
+    "static/media/php.png": "/PortofolioWeb/static/media/php.36940112021b26803d9e.png",
+    "static/media/csharp.png": "/PortofolioWeb/static/media/csharp.c9700c4f55c73b322a6f.png",
+    "static/media/javascript.png": "/PortofolioWeb/static/media/javascript.c82f51737aaa6831750c.png",
+    "static/media/e-eyes.png": "/PortofolioWeb/static/media/e-eyes.6b05c4dc285eff92f97a.png",
+    "index.html": "/PortofolioWeb/index.html",
+    "main.d186fc3b.css.map": "/PortofolioWeb/static/css/main.d186fc3b.css.map",
+    "main.e2c55621.js.map": "/PortofolioWeb/static/js/main.e2c55621.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d186fc3b.css",
+    "static/js/main.e2c55621.js"
+  ]
+}
