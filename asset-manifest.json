@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortofolioWeb/static/css/main.d186fc3b.css",
-    "main.js": "/PortofolioWeb/static/js/main.e2c55621.js",
+    "main.js": "/PortofolioWeb/static/js/main.4015eae3.js",
     "static/media/background.jpg": "/PortofolioWeb/static/media/background.505df75e5fe07879594f.jpg",
     "static/media/selfie.jpg": "/PortofolioWeb/static/media/selfie.ca4eafb578dd8ff12d9b.jpg",
     "static/media/emonteer.png": "/PortofolioWeb/static/media/emonteer.0e894c0b28ba7253f5ea.png",
@@ -14,14 +14,15 @@
     "static/media/Hydrovest.png": "/PortofolioWeb/static/media/Hydrovest.085f6372cccc9e625bce.png",
     "static/media/php.png": "/PortofolioWeb/static/media/php.36940112021b26803d9e.png",
     "static/media/csharp.png": "/PortofolioWeb/static/media/csharp.c9700c4f55c73b322a6f.png",
+    "static/media/Foodie.png": "/PortofolioWeb/static/media/Foodie.e7f4d8cd6b0a4e60c53e.png",
     "static/media/javascript.png": "/PortofolioWeb/static/media/javascript.c82f51737aaa6831750c.png",
     "static/media/e-eyes.png": "/PortofolioWeb/static/media/e-eyes.6b05c4dc285eff92f97a.png",
     "index.html": "/PortofolioWeb/index.html",
     "main.d186fc3b.css.map": "/PortofolioWeb/static/css/main.d186fc3b.css.map",
-    "main.e2c55621.js.map": "/PortofolioWeb/static/js/main.e2c55621.js.map"
+    "main.4015eae3.js.map": "/PortofolioWeb/static/js/main.4015eae3.js.map"
   },
   "entrypoints": [
     "static/css/main.d186fc3b.css",
-    "static/js/main.e2c55621.js"
+    "static/js/main.4015eae3.js"
   ]
 }
