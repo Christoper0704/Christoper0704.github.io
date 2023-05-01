@@ -35,8 +35,9 @@ const Project = () => {
     const cardsData = [
         {id: 1, title: 'E-Eyes', content: 'Online Attendance System Based on Face Recognition', imgUrl: 'e-eyes.png', alt: 'E-Eyes', projectUrl: 'https://github.com/felixfilipi/E-eyes.git'},
         {id: 2, title: 'Hydrovest', content: 'Automated Aquaponics Monitoring System', imgUrl: 'Hydrovest.png', alt: 'Hydrovest', projectUrl: 'https://github.com/Christoper0704/Hydrovest.git'},
-        {id: 3, title: 'E-Monteer', content: 'Cross Platform Online Mechanic Application', imgUrl: 'emonteer.png', alt: 'E-Monteer', projectUrl: 'https://github.com/felixfilipi/E-Monteer.git'},
-        {id: 4, title: 'MotivSong', content: 'Motivasion Song Collections', imgUrl: 'motivsong.jpg', alt: 'MotivSong', projectUrl: 'https://github.com/Christoper0704/MotivationSong.git'}
+        {id: 3, title: 'Foodie Web', content: 'Website for Restaurant Management', imgUrl: 'Foodie.png', alt: 'Foodie', projectUrl: 'https://github.com/Christoper0704/finalprojectweb.git'},
+        {id: 4, title: 'E-Monteer', content: 'Cross Platform Online Mechanic Application', imgUrl: 'emonteer.png', alt: 'E-Monteer', projectUrl: 'https://github.com/felixfilipi/E-Monteer.git'},
+        {id: 5, title: 'MotivSong', content: 'Motivasion Song Collections', imgUrl: 'motivsong.jpg', alt: 'MotivSong', projectUrl: 'https://github.com/Christoper0704/MotivationSong.git'}
     ]
 
     return (
