@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 .navbar {
-  background: #222831 /* linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%) */;
-  height: 80px;
+  /* background: #222831;  */
+  /* linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%) */
+  height: 5rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +18,9 @@
 }
 
 .navbar-logo {
+  object-fit: cover;
+  height: 3rem;
+  width: 4rem;
   color: #EEEEEE;
   justify-self: start;
   margin-left: 20px;
@@ -26,6 +37,17 @@
   width: 70vw;
   justify-content: end;
   margin-right: 2rem;
+}
+
+.navMenuItem {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.navMenuItem:hover{
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
 }
 
 .navbar-link {
