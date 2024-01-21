@@ -3,7 +3,7 @@ import '../Styles/Project.css';
 
 const Card = (props) => (
     <div className="card-project">
-      <a href={ props.projectUrl }>
+      <a href={ props.projectUrl } target='_blank' rel='noreferrer'>
         <img src={require(`../Images/${props.imgUrl}`)} 
           alt={ props.alt || 'Image' } />
         <div className="card-content">
@@ -41,14 +41,14 @@ const Project = () => {
     ]
 
     return (
-        <div id='project' className='project-container'>
+        <section id='project' className='project-container'>
             <div className='container'>
-                <h2 style={{textAlign: 'center'}}>
+                <h2 className='project-title'>
                     Project
                 </h2>
                 <CardContainer cards={cardsData} />
             </div>
-        </div>
+        </section>
     );
 }
 

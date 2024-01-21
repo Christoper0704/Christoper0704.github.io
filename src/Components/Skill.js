@@ -3,8 +3,8 @@ import '../Styles/Skill.css'
 
 const Skill = () =>{
     return (
-        <div id='skill' className='skill-container'>
-            <div className='card'><h3>Skill</h3></div>
+        <section id='skill' className='skill-container'>
+            <span className='skill-title'><h3>Skill</h3></span>
             <div className='cards'>
                 <div className='card'><img src={require('../Images/c.png')} alt="C Programming"/></div>
                 <div className='card'><img src={require('../Images/java.png')} alt="Java"/></div>
@@ -16,7 +16,7 @@ const Skill = () =>{
                 <div className='card'><img src={require('../Images/csharp.png')} alt="C# Programming"/></div>
                 <div className='card'><img src={require('../Images/typescript.png')} alt="TypeScript"/></div>
             </div>
-        </div>
+        </section>
     )
 }
 

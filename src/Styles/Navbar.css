@@ -1,11 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+.active {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+.mobileMenu {
+  display: none;
+  margin-right: 10px;
+  object-fit: cover;
+  height: 2rem;
+}
+
+.mobileNavMenu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width: 15rem;
+  background: rgb(40, 40, 40);
+  border-radius: 1rem;
+}
+
 .navbar {
   /* background: #222831;  */
   /* linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%) */
+  background: rgb(30, 30, 30);
   height: 5rem;
   width: 100vw;
-  max-width: 75rem;
+  /* max-width: 75rem; */
   margin: 0 auto;
   padding: 1rem 2rem;
   position: sticky;
@@ -39,6 +67,12 @@
   margin-right: 2rem;
 }
 
+.navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navMenuItem {
   margin: 1rem;
   cursor: pointer;
@@ -48,6 +82,13 @@
   color: yellow;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid yellow;
+}
+
+.navMobileMenuItem {
+  color: white;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  background: rgb(30, 30, 30);
 }
 
 .navbar-link {
@@ -156,5 +197,17 @@
     background: #EEEEEE;
     color: #222831;
     transition: 250ms;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .mobileNavMenu {
+    display: flex;
+  }
+  .navMenu {
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
   }
 }

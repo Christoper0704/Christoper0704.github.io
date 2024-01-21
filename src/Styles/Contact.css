@@ -1,4 +1,5 @@
 footer{
+    width: 100vw;
     position: relative;
     bottom: 0;
     left: 0;
@@ -32,12 +33,16 @@ footer{
 .socials{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
 .socials li{
-    margin: 0 10px;
+    margin: 0 0.75rem;
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
 }
 .socials a{
     text-decoration: none;
